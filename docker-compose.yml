@@ -1,0 +1,7 @@
+version: '3'
+services:
+  rust_learn:
+    build: .
+    tty: true
+    volumes:
+      - .:/rust_learn
